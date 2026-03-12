@@ -47,10 +47,12 @@ vasprun.xml
 Install required Python packages:
 
 <code> pip install numpy matplotlib scipy pymatgen </code>
-▶️ Example Usage
-Plot Band Structure
-python plot_band.py
 
+▶️ Example Usage
+<code>
+#Plot Band Structure
+python band_dos_plot.py
+</code>
 Example output:
 
 Publication-quality band structure plots
