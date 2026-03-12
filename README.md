@@ -46,7 +46,7 @@ vasprun.xml
 ---
 Install required Python packages:
 
-pip install numpy matplotlib scipy pymatgen
+<code> pip install numpy matplotlib scipy pymatgen </code>
 ▶️ Example Usage
 Plot Band Structure
 python plot_band.py
