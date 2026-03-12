@@ -43,6 +43,12 @@ OUTCAR
 
 vasprun.xml
 
+
+<img width="1100" height="600" alt="plot" src="https://github.com/user-attachments/assets/4716ad3c-bc65-4061-9e69-11538bd6dc52" />
+
+
+
+
 ---
 Install required Python packages:
 
