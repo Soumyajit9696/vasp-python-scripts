@@ -43,4 +43,48 @@ OUTCAR
 
 vasprun.xml
 
+---
+Install required Python packages:
+
+pip install numpy matplotlib scipy pymatgen
+▶️ Example Usage
+Plot Band Structure
+python plot_band.py
+
+Example output:
+
+Publication-quality band structure plots
+
+Customizable Fermi level alignment
+
+High symmetry k-points
+
+📊 Example Output
+
+Typical outputs include:
+
+Electronic band structures
+
+Orbital-projected bands
+
+DOS and PDOS plots
+
+Optical conductivity spectra
+
+All plots are generated using Matplotlib and can be directly used in research papers or theses.
+
+🎯 Future Development
+
+Planned additions:
+
+Wannier90 interface
+
+Automatic high-symmetry k-path generation
+
+Effective mass calculation
+
+Band unfolding
+
+Interactive plots (Plotly)
+
 🐍 Clean Python + Matplotlib visualizations
