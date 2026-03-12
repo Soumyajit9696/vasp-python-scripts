@@ -1,98 +1,101 @@
 ⚛️ VASP Post-Processing Toolkit (Python)
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.9+-blue.svg"> <img src="https://img.shields.io/badge/VASP-PostProcessing-green"> <img src="https://img.shields.io/badge/DFT-Materials%20Science-orange"> <img src="https://img.shields.io/badge/License-MIT-red"> </p> <p align="center"> Python scripts for analyzing and visualizing <b>VASP outputs</b> including <b>band structures, density of states, projected bands, optical properties</b> and more. </p>
+<p align="center"> <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/VASP-PostProcessing-green?style=for-the-badge"> <img src="https://img.shields.io/badge/DFT-Materials%20Science-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge"> </p> <p align="center"> <b>Python toolkit for analyzing and visualizing VASP outputs</b><br> Band structures • Density of states • Orbital projections • Optical properties </p>
 📌 Overview
 
-This repository contains a collection of Python scripts for post-processing VASP calculations.
-It is designed for DFT researchers working on electronic structure calculations, especially in:
+This repository provides a collection of Python scripts for post-processing VASP calculations, designed for researchers working in computational materials science and electronic structure theory.
 
-Condensed Matter Physics
+The toolkit helps automate the extraction, processing, and visualization of physical quantities from VASP output files, making it easier to generate publication-quality plots.
 
-Materials Science
+🔬 Target Research Areas
 
-2D Materials (TMDCs, graphene, etc.)
+🧲 Condensed Matter Physics
 
-Semiconductor physics
+🧪 Materials Science
 
-The scripts automate the extraction and visualization of physical quantities from VASP output files.
+🧬 2D Materials (TMDCs, Graphene, etc.)
+
+💻 Semiconductor Physics
+
+⚛️ Density Functional Theory (DFT)
 
 🚀 Features
+Current & Planned Capabilities
+Feature	Description
+📈 Band Structure Plotting	High-quality electronic band diagrams
+🎨 Orbital-Projected Bands	Element and orbital contributions
+📊 Density of States (DOS)	Total DOS visualization
+🔍 Projected DOS (PDOS)	Orbital and atom resolved DOS
+🧲 Spin-Resolved Bands	Spin-polarized calculations
+💡 Optical Properties	Dielectric function & optical spectra
+📂 Supported VASP Files
 
-✨ Current and planned capabilities:
-
-📈 Band Structure plotting
-
-🎨 Orbital-projected band structures
-
-📊 Density of States (DOS) plotting
-
-🧲 Spin-resolved electronic structure
-
-💡 Optical properties analysis
-
-🔍 Projected density of states (PDOS)
-
-📂 Automated parsing of:
+The scripts automatically parse important VASP output files:
 
 EIGENVAL
-
 PROCAR
-
 DOSCAR
-
 OUTCAR
-
 vasprun.xml
 
-
-<img width="1100" height="600" alt="plot" src="https://github.com/user-attachments/assets/4716ad3c-bc65-4061-9e69-11538bd6dc52" />
-
-
-
-
----
-Install required Python packages:
-
-<code> pip install numpy matplotlib scipy pymatgen </code>
-
-▶️ Example Usage
-<code>
-#Plot Band Structure
-python band_dos_plot.py
-</code>
-Example output:
-
-Publication-quality band structure plots
-
-Customizable Fermi level alignment
-
-High symmetry k-points
+These files are processed to extract electronic structure information.
 
 📊 Example Output
+<p align="center"> <img src="https://github.com/user-attachments/assets/4716ad3c-bc65-4061-9e69-11538bd6dc52" width="900"> </p>
 
 Typical outputs include:
 
-Electronic band structures
+📈 Electronic band structures
 
-Orbital-projected bands
+🎨 Orbital-projected band structures
 
-DOS and PDOS plots
+📊 Density of States (DOS / PDOS)
 
-Optical conductivity spectra
+💡 Optical conductivity spectra
 
-All plots are generated using Matplotlib and can be directly used in research papers or theses.
+All figures are generated using Matplotlib and are suitable for thesis or research publications.
+
+⚙️ Installation
+
+Install the required Python dependencies:
+
+pip install numpy matplotlib scipy pymatgen
+▶️ Example Usage
+Plot Band Structure
+python band_dos_plot.py
+Output
+
+The script will generate:
+
+Publication-quality band structure plots
+
+Fermi-level aligned bands
+
+High-symmetry k-point labels
 
 🎯 Future Development
 
-Planned additions:
+Upcoming features planned for the toolkit:
 
-Wannier90 interface
+🔗 Wannier90 integration
 
-Automatic high-symmetry k-path generation
+📍 Automatic high-symmetry k-path generation
 
-Effective mass calculation
+⚡ Effective mass calculation
 
-Band unfolding
+🔄 Band unfolding
 
-Interactive plots (Plotly)
+📊 Interactive plots with Plotly
 
-🐍 Clean Python + Matplotlib visualizations
+🐍 Visualization
+
+All plots are generated using:
+
+Python
+
+Matplotlib
+
+NumPy
+
+The goal is to provide clean, customizable, and reproducible visualizations for DFT research.
+
+⭐ If you find this repository useful, consider starring it!
